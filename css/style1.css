@@ -1,0 +1,446 @@
+/* Cofigs da página e Título*/
+
+.fundo {
+    background-color: #EBBDFF;
+}
+
+.phone {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    border-bottom: solid 1px black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.alin_centro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.voltar-link{
+    display: flex;
+    justify-content: flex-start;
+    padding:1rem;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2{
+font-size: 1.1rem;
+font-weight: bold;
+color: black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna_espaco_i{
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*tela_central*/
+.central_meio{
+    display: flex;
+    flex-direction: row;
+}
+
+.central_feed{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;  
+}
+
+.central_menu{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: solid black 0.1rem;
+}
+
+.botao_pesquisar{
+    margin: 1rem;
+    border: solid black 0.1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_texto{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.pesquisar{
+    height: 60%;
+    width: 60%;
+}
+
+.feed_perguntas {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #EBBDFF;  
+}
+  .feed_perguntas::-webkit-scrollbar {
+    display: none;
+}
+  .pergunta{
+    min-height: 80%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px -3px #212529;
+}
+
+.nova_pergunta{
+    margin: 1.5rem;
+    border: solid black 0.1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #D48DF2;
+}
+
+.img_menu{
+    height:3rem;
+    width: 3rem;
+    border: solid black 0.1rem;
+    border-radius: 5rem;
+    padding: 0.1rem;
+}
+/* Barra de Navegação Inferior*/
+footer{
+    flex-direction: row-reverse;
+}
+
+.barra_inf {
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    border-top: solid 1px black;
+}
+
+.barra_botao {
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 0.5rem ;
+    padding-right: 0.5rem ;
+}
+
+/* tela inicial*/
+.coluna_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prox_event{
+    margin-top:1rem ;
+    width:20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    border:solid 0.1rem black; 
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    justify-content: space-evenly;
+    overflow: scroll;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.img_perfil{
+    margin-top: 5rem;
+    width: 12rem;
+    height: 12rem;
+}
+
+.tarefas{
+    margin-bottom: 1rem;
+}
+
+/*tela zoom*/
+.tela_sair{
+    background-color: #EBBDFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+
+}
+
+.menu_expand{
+    border-left: solid black 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+
+.row_materias{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+}
+
+.botao_voltar_materias{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid black 0.1rem;
+    border-radius: 2rem;
+}
+
+.cem{
+    height: 100%;
+    margin: 0;
+}
+
+.padding_itens{
+    padding-left: 1rem ;
+}
+
+.pesquisar_materias{
+    height: 60%;
+    width: 60%;
+    margin-left:0.5rem ;
+    width: 7rem;
+}
+
+/*tela semana*/
+.botao_voltar_calendario{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid black 0.1rem;
+    border-radius: 2rem;
+    justify-self: flex-start;
+}
+
+.botao_semana_alin{
+    position: fixed;
+    margin-top: 0.7rem;
+    margin-left: 0.2rem;
+}
+
+.row_semanal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.horarios{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.semana{
+    display: flex;
+    flex-direction: column;
+    border-left: solid black 0.1rem;
+    width: 12% ;
+    align-items: center;
+}
+
+.evento{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.1rem;
+    background-color: #459DFA;
+    height: 8rem;
+    justify-content: center;
+}
+
+.evento_descricao{
+    font-size: 10px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.evento_descricao_titulo{
+    text-decoration: underline;
+    font-size: 10px;
+    border: 1rem;
+    border-radius: 1rem;
+}
+
+/*Tela Calendário*/
+
+.row_tela_calendario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column_tela_calendario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+
+.icones_tela_calendario{
+    width: 2rem;
+    height: 2rem;
+}
+
+.nomes_tela_calendario{
+    width: 2rem;
+    height: 2rem;
+}
+
+.nome_calendario{
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.column_tela_calendario_icones{
+    display: flex;
+    margin-top: 8rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+/*tela dia*/
+.dia{
+    display: flex;
+    flex-direction: column;
+    border-left: solid black 0.1rem;
+    width: 85% ;
+    align-items: center;
+}
+
+.evento_dia1{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.1rem;
+    background-color: #459DFA;
+    height: 8rem;
+    justify-content: center;
+    width: 18rem;
+    align-items: center;
+}
+
+.evento_dia2{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.1rem;
+    background-color: #94C1F0;
+    height: 3rem;
+    justify-content: center;
+    width: 18rem;
+    align-items: center;
+}
+
+.font_prin{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fornt_sec{
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
